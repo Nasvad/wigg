@@ -1,5 +1,7 @@
 <?php
 
+// TODO(configurar variáveis)
+
 //Pagina de conexao com o DB
 $servername = "localhost";
 $username   = "root";

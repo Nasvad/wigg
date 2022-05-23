@@ -1,3 +1,7 @@
+<?php 
+    include("bd.php");
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -106,8 +110,9 @@
                     <h2>Learn More from Latest Barber Blog</h2>
                 </div>
                 <div class="row blog-page">
-                    <?php
-                    $connection = $mysqli_connect("");
+                
+                <!-- TODO(finalizar a renderização dinâmica) < Renderização dinâmica de barbearia 
+                    $conn = $mysqli_connect("");
                     $sql = "select * from _database_";
                     $result = $mysqli_querry($sqli);
                     $arr = mysqli_fetch_all($result, MYSQLI_BOTH);
@@ -128,8 +133,10 @@
                             echo "</div>";
                         echo "</div>";
                     }
-                ?>
-                    <div class="col-lg-4 col-md-6">
+
+                    mysqli_close($conn);
+                ?> -->
+                    <!-- <div class="col-lg-4 col-md-6">
                         <div class="blog-item">
                             <div class="blog-img">
                                 <img src="img/blog-1.jpg" alt="Blog">
@@ -148,7 +155,8 @@
                                 <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
+
                 </div>
                 <div class="row">
                     <div class="col-12">
