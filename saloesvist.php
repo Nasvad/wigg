@@ -106,6 +106,29 @@
                     <h2>Learn More from Latest Barber Blog</h2>
                 </div>
                 <div class="row blog-page">
+                    <?php
+                    $connection = $mysqli_connect("");
+                    $sql = "select * from _database_";
+                    $result = $mysqli_querry($sqli);
+                    $arr = mysqli_fetch_all($result, MYSQLI_BOTH);
+                    foreach($arr as $a) {
+                        echo "<div class='col-lg-4 col-md-6'>";
+                            echo "<div class='blog-item'>";
+                                echo "<div class='blog-img'>";
+                                    sprintf("<img src='%s' alt="Blog">", $a["imagem-background"]);
+                                echo "</div>";
+                            echo "</div>";
+                            echo "<div class='blog-meta'>";
+                                echo "<i class='fa fa-list-alt'></i>";
+                                echo "<a href=''>Hair Cut</a>";
+                                echo "<i class='fa fa-calendar-alt'></i>";
+                            echo "</div>";
+                            echo "<div class='blog-text'>";
+                                echo "<a class='btn' href=''>Read More <i class='fa fa-angle-right'></i></a>";
+                            echo "</div>";
+                        echo "</div>";
+                    }
+                ?>
                     <div class="col-lg-4 col-md-6">
                         <div class="blog-item">
                             <div class="blog-img">
@@ -114,106 +137,6 @@
                             <div class="blog-meta">
                                 <i class="fa fa-list-alt"></i>
                                 <a href="">Hair Cut</a>
-                                <i class="fa fa-calendar-alt"></i>
-                                <p>01-Jan-2045</p>
-                            </div>
-                            <div class="blog-text">
-                                <h2>Lorem ipsum dolor</h2>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
-                                </p>
-                                <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="blog-item">
-                            <div class="blog-img">
-                                <img src="img/blog-2.jpg" alt="Blog">
-                            </div>
-                            <div class="blog-meta">
-                                <i class="fa fa-list-alt"></i>
-                                <a href="">Beard Style</a>
-                                <i class="fa fa-calendar-alt"></i>
-                                <p>01-Jan-2045</p>
-                            </div>
-                            <div class="blog-text">
-                                <h2>Lorem ipsum dolor</h2>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
-                                </p>
-                                <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="blog-item">
-                            <div class="blog-img">
-                                <img src="img/blog-3.jpg" alt="Blog">
-                            </div>
-                            <div class="blog-meta">
-                                <i class="fa fa-list-alt"></i>
-                                <a href="">Color & Wash</a>
-                                <i class="fa fa-calendar-alt"></i>
-                                <p>01-Jan-2045</p>
-                            </div>
-                            <div class="blog-text">
-                                <h2>Lorem ipsum dolor</h2>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
-                                </p>
-                                <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="blog-item">
-                            <div class="blog-img">
-                                <img src="img/blog-4.jpg" alt="Blog">
-                            </div>
-                            <div class="blog-meta">
-                                <i class="fa fa-list-alt"></i>
-                                <a href="">Hair Cut</a>
-                                <i class="fa fa-calendar-alt"></i>
-                                <p>01-Jan-2045</p>
-                            </div>
-                            <div class="blog-text">
-                                <h2>Lorem ipsum dolor</h2>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
-                                </p>
-                                <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="blog-item">
-                            <div class="blog-img">
-                                <img src="img/blog-5.jpg" alt="Blog">
-                            </div>
-                            <div class="blog-meta">
-                                <i class="fa fa-list-alt"></i>
-                                <a href="">Beard Style</a>
-                                <i class="fa fa-calendar-alt"></i>
-                                <p>01-Jan-2045</p>
-                            </div>
-                            <div class="blog-text">
-                                <h2>Lorem ipsum dolor</h2>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
-                                </p>
-                                <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="blog-item">
-                            <div class="blog-img">
-                                <img src="img/blog-6.jpg" alt="Blog">
-                            </div>
-                            <div class="blog-meta">
-                                <i class="fa fa-list-alt"></i>
-                                <a href="">Color & Wash</a>
                                 <i class="fa fa-calendar-alt"></i>
                                 <p>01-Jan-2045</p>
                             </div>
