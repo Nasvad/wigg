@@ -60,28 +60,28 @@
         <!-- Nav Bar Start -->
         <div class="navbar navbar-expand-lg bg-dark navbar-dark">
             <div class="container-fluid">
-                <a href="index.html" class="navbar-brand">Barber <span>X</span></a>
+                <a href="index.php" class="navbar-brand">Barber <span>X</span></a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto">
-                        <a href="index.html" class="nav-item nav-link">Home</a>
-                        <a href="about.html" class="nav-item nav-link">About</a>
-                        <a href="service.html" class="nav-item nav-link active">Service</a>
-                        <a href="price.html" class="nav-item nav-link">Price</a>
-                        <a href="team.html" class="nav-item nav-link">Barber</a>
-                        <a href="portfolio.html" class="nav-item nav-link">Gallery</a>
+                        <a href="index.php" class="nav-item nav-link">Home</a>
+                        <a href="about.php" class="nav-item nav-link">About</a>
+                        <a href="service.php" class="nav-item nav-link">Service</a>
+                        <a href="price.php" class="nav-item nav-link">Price</a>
+                        <a href="team.php" class="nav-item nav-link active">Barber</a>
+                        <a href="portfolio.php" class="nav-item nav-link">Gallery</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu">
-                                <a href="blog.html" class="dropdown-item">Blog Page</a>
-                                <a href="single.html" class="dropdown-item">Single Page</a>
+                                <a href="blog.php" class="dropdown-item">Blog Page</a>
+                                <a href="single.php" class="dropdown-item">Single Page</a>
                             </div>
                         </div>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
-                        <a href="login.html" class="nav-item nav-link">Login</a>
+                        <a href="contact.php" class="nav-item nav-link">Contact</a>
+                        <a href="login.php" class="nav-item nav-link">Login</a>
                     </div>
                 </div>
             </div>
@@ -94,11 +94,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h2>Service</h2>
+                        <h2>Barber</h2>
                     </div>
                     <div class="col-12">
                         <a href="">Home</a>
-                        <a href="">Service</a>
+                        <a href="">Barber</a>
                     </div>
                 </div>
             </div>
@@ -106,54 +106,62 @@
         <!-- Page Header End -->
 
 
-        <!-- Service Start -->
-        <div class="service">
+        <!-- Team Start -->
+        <div class="team">
             <div class="container">
                 <div class="section-header text-center">
-                    <p>Our Salon Services</p>
-                    <h2>Best Salon and Barber Services for You</h2>
+                    <p>Our Barber Team</p>
+                    <h2>Meet Our Hair Cut Expert Barber</h2>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="service-item">
-                            <div class="service-img">
-                                <img src="img/service-1.jpg" alt="Image">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/team-1.jpg" alt="Team Image">
                             </div>
-                            <h3>Hair Cut</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non
-                            </p>
-                            <a class="btn" href="">Learn More</a>
+                            <div class="team-text">
+                                <h2>Adam Phillips</h2>
+                                <p>Master Barber</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="service-item">
-                            <div class="service-img">
-                                <img src="img/service-2.jpg" alt="Image">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/team-2.jpg" alt="Team Image">
                             </div>
-                            <h3>Beard Style</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non
-                            </p>
-                            <a class="btn" href="">Learn More</a>
+                            <div class="team-text">
+                                <h2>Dylan Adams</h2>
+                                <p>Hair Expert</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="service-item">
-                            <div class="service-img">
-                                <img src="img/service-3.jpg" alt="Image">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/team-3.jpg" alt="Team Image">
                             </div>
-                            <h3>Color & Wash</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non
-                            </p>
-                            <a class="btn" href="">Learn More</a>
+                            <div class="team-text">
+                                <h2>Gloria Edwards</h2>
+                                <p>Beard Expert</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/team-4.jpg" alt="Team Image">
+                            </div>
+                            <div class="team-text">
+                                <h2>Josh Dunn</h2>
+                                <p>Color Expert</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Service End -->
+        <!-- Team End -->
 
 
         <!-- Footer Start -->

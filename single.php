@@ -60,28 +60,28 @@
         <!-- Nav Bar Start -->
         <div class="navbar navbar-expand-lg bg-dark navbar-dark">
             <div class="container-fluid">
-                <a href="index.html" class="navbar-brand">Barber <span>X</span></a>
+                <a href="index.php" class="navbar-brand">Barber <span>X</span></a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto">
-                        <a href="index.html" class="nav-item nav-link">Home</a>
-                        <a href="about.html" class="nav-item nav-link active">About</a>
-                        <a href="service.html" class="nav-item nav-link">Service</a>
-                        <a href="price.html" class="nav-item nav-link">Price</a>
-                        <a href="team.html" class="nav-item nav-link">Barber</a>
-                        <a href="portfolio.html" class="nav-item nav-link">Gallery</a>
+                        <a href="index.php" class="nav-item nav-link">Home</a>
+                        <a href="about.php" class="nav-item nav-link">About</a>
+                        <a href="service.php" class="nav-item nav-link">Service</a>
+                        <a href="price.php" class="nav-item nav-link">Price</a>
+                        <a href="team.php" class="nav-item nav-link">Barber</a>
+                        <a href="portfolio.php" class="nav-item nav-link">Gallery</a>
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
+                            <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu">
-                                <a href="blog.html" class="dropdown-item">Blog Page</a>
-                                <a href="single.html" class="dropdown-item">Single Page</a>
+                                <a href="blog.php" class="dropdown-item">Blog Page</a>
+                                <a href="single.php" class="dropdown-item">Single Page</a>
                             </div>
                         </div>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
-                        <a href="login.html" class="nav-item nav-link">Login</a>
+                        <a href="contact.php" class="nav-item nav-link">Contact</a>
+                        <a href="login.php" class="nav-item nav-link">Login</a>
                     </div>
                 </div>
             </div>
@@ -94,11 +94,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h2>About Us</h2>
+                        <h2>Single Page</h2>
                     </div>
                     <div class="col-12">
                         <a href="">Home</a>
-                        <a href="">About Us</a>
+                        <a href="">Single Page</a>
                     </div>
                 </div>
             </div>
@@ -106,92 +106,85 @@
         <!-- Page Header End -->
 
 
-        <!-- About Start -->
-        <div class="about">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-5 col-md-6">
-                        <div class="about-img">
-                            <img src="img/about.jpg" alt="Image">
-                        </div>
-                    </div>
-                    <div class="col-lg-7 col-md-6">
-                        <div class="section-header text-left">
-                            <p>Learn About Us</p>
-                            <h2>25 Years Experience</h2>
-                        </div>
-                        <div class="about-text">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
-                            </p>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. Aenean consectetur convallis porttitor. Aliquam interdum at lacus non blandit.
-                            </p>
-                            <a class="btn" href="">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- About End -->
-
-
-        <!-- Team Start -->
-        <div class="team">
+        <!-- Single Page Start -->
+        <div class="single">
             <div class="container">
                 <div class="section-header text-center">
-                    <p>Our Barber Team</p>
-                    <h2>Meet Our Hair Cut Expert Barber</h2>
+                    <h2>This is Single Page Title</h2>
                 </div>
                 <div class="row">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/team-1.jpg" alt="Team Image">
-                            </div>
-                            <div class="team-text">
-                                <h2>Adam Phillips</h2>
-                                <p>Master Barber</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/team-2.jpg" alt="Team Image">
-                            </div>
-                            <div class="team-text">
-                                <h2>Dylan Adams</h2>
-                                <p>Hair Expert</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/team-3.jpg" alt="Team Image">
-                            </div>
-                            <div class="team-text">
-                                <h2>Gloria Edwards</h2>
-                                <p>Beard Expert</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/team-4.jpg" alt="Team Image">
-                            </div>
-                            <div class="team-text">
-                                <h2>Josh Dunn</h2>
-                                <p>Color Expert</p>
-                            </div>
-                        </div>
+                    <div class="col-12">
+                        <img src="img/single.jpg" alt="Image">
+                        <h1>This is heading 1</h1>
+                        <h2>This is heading 2</h2>
+                        <h3>This is heading 3</h3>
+                        <h4>This is heading 4</h4>
+                        <h5>This is heading 5</h5>
+                        <h6>This is heading 6</h6>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. Aenean consectetur convallis porttitor. Aliquam interdum at lacus non blandit. Nam congue molestie nibh in venenatis. Etiam non dui vel purus mollis consectetur. Sed at cursus lectus, sed iaculis lorem. Suspendisse venenatis est eu neque elementum, a accumsan tortor scelerisque. Nullam id erat arcu. Morbi suscipit commodo tortor non efficitur. Ut pretium sollicitudin lorem quis laoreet. Nulla vestibulum ante ut tellus hendrerit, ac condimentum sapien vehicula. Fusce dapibus, nulla non venenatis pretium, purus mauris vehicula elit, at posuere leo elit id augue. Donec ullamcorper tortor et tellus convallis maximus.
+                        </p>
+                        <ul class="ul-group">
+                            <li>First list item</li>
+                            <li>Second list item</li>
+                            <li>Third list item</li>
+                            <li>Fourth list item</li>
+                            <li>Fifth list item</li>
+                        </ul>
+                        <p>
+                            Mauris tempor et odio ut condimentum. Donec eleifend magna eu hendrerit lacinia. Praesent luctus diam ut rhoncus vulputate. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed ut metus efficitur, volutpat eros et, mollis enim. Sed quis tortor id erat iaculis sagittis. Aenean at pretium lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Etiam sollicitudin vitae lacus id fermentum. Nullam sit amet tortor arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum nibh in dui congue, id faucibus lectus auctor. Nunc quis tincidunt odio, id finibus massa. Phasellus tincidunt libero est, in blandit turpis malesuada a. Quisque congue, mauris non consectetur tempus, arcu urna blandit arcu, ac finibus dolor ante ut nibh. Etiam congue dignissim sollicitudin. 
+                        </p>
+                        <ol class="ol-group">
+                            <li>First list item</li>
+                            <li>Second list item</li>
+                            <li>Third list item</li>
+                            <li>Fourth list item</li>
+                            <li>Fifth list item</li>
+                        </ol>
+                        <p>
+                            Donec vel euismod tortor. Aenean euismod risus ac enim hendrerit, ac sagittis erat porta. Donec ultrices et massa at ullamcorper. Nam faucibus mattis mattis. Etiam a metus condimentum, pretium elit a, accumsan dui. Donec ipsum erat, ultricies ut ante vel, consequat elementum nibh. Vestibulum egestas id nunc lobortis bibendum. Aliquam odio ex, efficitur vitae risus vitae, iaculis suscipit justo. Nam eleifend orci nulla, in pulvinar risus eleifend sit amet
+                        </p>
+                        <ul class="list-group">
+                            <li class="list-group-item">First list item</li>
+                            <li class="list-group-item">Second list item</li>
+                            <li class="list-group-item">Third list item</li>
+                            <li class="list-group-item">Fourth list item</li>
+                            <li class="list-group-item">Fifth list item</li>
+                        </ul>
+                        <p>
+                            Aenean dolor nisi, ultrices vitae urna vitae, tristique auctor tortor. Cras eu aliquet metus. Nunc volutpat est nec convallis vulputate. Maecenas quis tortor molestie, maximus arcu mattis, vehicula orci. Curabitur consequat eu orci vel vulputate. In mollis purus in tellus consectetur, at tristique lacus gravida. Integer tempor mattis elit, eu mollis tellus pretium in. Duis id iaculis ipsum, eu tempus purus. Fusce euismod lacus quis felis eleifend egestas. Nam at dolor vitae risus varius mattis sed ut tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque diam nisl, interdum sit amet congue efficitur, ultrices id dolor. 
+                        </p>
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Table Head</th>
+                                    <th>Table Head</th>
+                                    <th>Table Head</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Table Cell</td>
+                                    <td>Table Cell</td>
+                                    <td>Table Cell</td>
+                                </tr>
+                                <tr>
+                                    <td>Table Cell</td>
+                                    <td>Table Cell</td>
+                                    <td>Table Cell</td>
+                                </tr>
+                                <tr>
+                                    <td>Table Cell</td>
+                                    <td>Table Cell</td>
+                                    <td>Table Cell</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Team End -->
+        <!-- Single Page End -->
 
 
         <!-- Footer Start -->

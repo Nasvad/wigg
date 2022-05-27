@@ -1,5 +1,5 @@
 <?php 
-    include("bd.php");
+    include("db/bd.php");
 ?>
 
 <!DOCTYPE html>
@@ -120,7 +120,7 @@
                         echo "<div class='col-lg-4 col-md-6'>";
                             echo "<div class='blog-item'>";
                                 echo "<div class='blog-img'>";
-                                    sprintf("<img src='%s' alt="Blog">", $a["imagem-background"]);
+                                    echo sprintf("<img src='%s' alt="Blog">", $a["imagem-background"]);
                                 echo "</div>";
                             echo "</div>";
                             echo "<div class='blog-meta'>";
