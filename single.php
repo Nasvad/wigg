@@ -59,21 +59,16 @@
 
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto">
-                        <a href="index.php" class="nav-item nav-link">Home</a>
-                        <a href="about.php" class="nav-item nav-link">About</a>
-                        <a href="service.php" class="nav-item nav-link">Service</a>
-                        <a href="price.php" class="nav-item nav-link">Price</a>
-                        <a href="team.php" class="nav-item nav-link">Barber</a>
-                        <a href="portfolio.php" class="nav-item nav-link">Gallery</a>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">Pages</a>
-                            <div class="dropdown-menu">
-                                <a href="blog.php" class="dropdown-item">Blog Page</a>
-                                <a href="single.php" class="dropdown-item">Single Page</a>
-                            </div>
-                        </div>
-                        <a href="contact.php" class="nav-item nav-link">Contact</a>
-                        <a href="login.php" class="nav-item nav-link">Login</a>
+                        <a href="index.php" class="nav-item nav-link active">Início</a>
+                        <a href="saloes.php" class="nav-item nav-link">Salões</a>
+                        <a href="price.php" class="nav-item nav-link">Barbeiros</a> 
+                        <a href="saloesvist.php" class="nav-item nav-link">Salões mais vistos</a>
+                        <a href="team.php" class="nav-item nav-link">Barbeiros mais vistos</a>
+                        <!--<a href="portfolio.php" class="nav-item nav-link">Gallery</a> -->
+                        <a href="contact.php" class="nav-item nav-link">Entre em contato</a>
+                        <a href="login.php" class="nav-item nav-link">Faça seu login</a>
+                        <a href="about.php" class="nav-item nav-link">Sobre a Wigg</a>
+                                           
                     </div>
                 </div>
             </div>

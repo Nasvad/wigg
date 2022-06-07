@@ -63,21 +63,23 @@
                 
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto">
-                        <a href="index.php" class="nav-item nav-link">Home</a>
-                        <a href="about.php" class="nav-item nav-link">About</a>
-                        <a href="service.php" class="nav-item nav-link">Service</a>
-                        <a href="price.php" class="nav-item nav-link">Price</a>
-                        <a href="team.php" class="nav-item nav-link">Barber</a>
-                        <a href="portfolio.php" class="nav-item nav-link">Gallery</a>
-                        <div class="nav-item dropdown">
+                        <a href="index.php" class="nav-item nav-link">Início</a>
+                        <a href="service.php" class="nav-item nav-link">Salões</a>
+                        <a href="price.php" class="nav-item nav-link">Barbeiros</a> 
+                        <a href="team.php" class="nav-item nav-link">Barbeiros mais vistos</a>
+                        <!--<a href="portfolio.php" class="nav-item nav-link">Gallery</a> -->
+                        <a href="contact.php" class="nav-item nav-link">Entre em contato</a>
+                        <a href="login.php" class="nav-item nav-link">Faça seu login</a>
+                        <a href="about.php" class="nav-item nav-link">Sobre a Wigg</a>
+                        <!--<div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu">
                                 <a href="blog.php" class="dropdown-item">Blog Page</a>
                                 <a href="single.php" class="dropdown-item">Single Page</a>
                             </div>
+                        --> 
+
                         </div>
-                        <a href="contact.php" class="nav-item nav-link">Contact</a>
-                        <a href="login.php" class="nav-item nav-link">Login</a>
                     </div>
                 </div>
             </div>
@@ -90,11 +92,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h2>Barber Blog</h2>
+                        <h2>Salões mais vistos</h2>
                     </div>
                     <div class="col-12">
-                        <a href="">Home</a>
-                        <a href="">Barber Blog</a>
+                        <a href="">Início</a>
+                        
                     </div>
                 </div>
             </div>
@@ -106,8 +108,8 @@
         <div class="blog">
             <div class="container">
                 <div class="section-header text-center">
-                    <p>Latest From Blog</p>
-                    <h2>Learn More from Latest Barber Blog</h2>
+                    <p>Confira os nossos</p>
+                    <h2>Salões com as melhores avaliações!</h2>
                 </div>
                 <div class="row blog-page">
                 
@@ -161,11 +163,11 @@
                 <div class="row">
                     <div class="col-12">
                         <ul class="pagination justify-content-center">
-                            <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+                            <li class="page-item disabled"><a class="page-link" href="#">Anterior</a></li>
                             <li class="page-item"><a class="page-link" href="#">1</a></li>
                             <li class="page-item active"><a class="page-link" href="#">2</a></li>
                             <li class="page-item"><a class="page-link" href="#">3</a></li>
-                            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                            <li class="page-item"><a class="page-link" href="#">Próximo</a></li>
                         </ul> 
                     </div>
                 </div>
