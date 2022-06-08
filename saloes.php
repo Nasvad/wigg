@@ -80,11 +80,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h2>Service</h2>
+                        <h2>Salões</h2>
                     </div>
                     <div class="col-12">
-                        <a href="">Home</a>
-                        <a href="">Service</a>
+                        <a href="index.php" class="nav-item nav-link">Início</a>
+                        
                     </div>
                 </div>
             </div>
@@ -96,8 +96,8 @@
         <div class="service">
             <div class="container">
                 <div class="section-header text-center">
-                    <p>Our Salon Services</p>
-                    <h2>Best Salon and Barber Services for You</h2>
+                    <p>Veja todos os </p>
+                    <h2>Salões parceiros da Wigg!</h2>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-md-6">
@@ -105,11 +105,11 @@
                             <div class="service-img">
                                 <img src="img/service-1.jpg" alt="Image">
                             </div>
-                            <h3>Hair Cut</h3>
+                            <h3>Cosmetics Natural Beauty</h3>
                             <p>
                                 Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non
                             </p>
-                            <a class="btn" href="">Learn More</a>
+                            <a class="btn" href="">Saiba Mais</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
@@ -117,11 +117,11 @@
                             <div class="service-img">
                                 <img src="img/service-2.jpg" alt="Image">
                             </div>
-                            <h3>Beard Style</h3>
+                            <h3>Cida Inácia Espaço de Beleza</h3>
                             <p>
                                 Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non
                             </p>
-                            <a class="btn" href="">Learn More</a>
+                            <a class="btn" href="">Saiba Mais</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
@@ -129,11 +129,11 @@
                             <div class="service-img">
                                 <img src="img/service-3.jpg" alt="Image">
                             </div>
-                            <h3>Color & Wash</h3>
+                            <h3>Beauty Estúdio de Beleza e Spa</h3>
                             <p>
                                 Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non
                             </p>
-                            <a class="btn" href="">Learn More</a>
+                            <a class="btn" href="">Saiba Mais</a>
                         </div>
                     </div>
                 </div>
