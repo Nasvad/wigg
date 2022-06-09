@@ -65,7 +65,7 @@
                     <div class="navbar-nav ml-auto">
                         <a href="index.php" class="nav-item nav-link">Início</a>
                         <a href="service.php" class="nav-item nav-link">Salões</a>
-                        <a href="price.php" class="nav-item nav-link">Barbeiros</a> 
+                        <a href="barbeiros.php" class="nav-item nav-link">Barbeiros</a> 
                         <!--<a href="barbmaisvist.php" class="nav-item nav-link">Barbeiros mais vistos</a>-->
                         <!--<a href="portfolio.php" class="nav-item nav-link">Gallery</a> -->
                         <a href="contact.php" class="nav-item nav-link">Entre em contato</a>
