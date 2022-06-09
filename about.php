@@ -63,7 +63,7 @@
                         <a href="saloes.php" class="nav-item nav-link">Salões</a>
                         <a href="barbeiros.php" class="nav-item nav-link">Barbeiros</a> 
                         <a href="saloesvist.php" class="nav-item nav-link">Salões mais vistos</a>
-                        <a href="team.php" class="nav-item nav-link">Barbeiros mais vistos</a>
+                        <!--<a href="team.php" class="nav-item nav-link">Barbeiros mais vistos</a>-->
                         <!--<a href="portfolio.php" class="nav-item nav-link">Gallery</a> -->
                         <a href="contact.php" class="nav-item nav-link">Entre em contato</a>
                         <a href="login.php" class="nav-item nav-link">Faça seu login</a>
@@ -189,27 +189,26 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="footer-contact">
-                                    <h2>Salon Address</h2>
-                                    <p><i class="fa fa-map-marker-alt"></i>Your Location, City, Country</p>
-                                    <p><i class="fa fa-phone-alt"></i>+012 345 67890</p>
-                                    <p><i class="fa fa-envelope"></i>info@example.com</p>
+                                    <h2>Sobre nós</h2>
+                                    <p><i class="fa fa-map-marker-alt"></i>Juazeiro do Norte, Ceará, Brasil</p>
+                                    <p><i class="fa fa-phone-alt"></i>+55(87)99233-4234</p>
+                                    <p><i class="fa fa-envelope"></i>wigg@spaceio.com</p>
                                     <div class="footer-social">
-                                       <a href="https://freewebsitecode.com/"><i class="fab fa-twitter"></i></a>
-                                    <a href="https://facebook.com/freewebsitecode"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="https://freewebsitecode.com/"><i class="fab fa-linkedin-in"></i></a>
-                                    <a href="https://freewebsitecode.com/"><i class="fab fa-instagram"></i></a>
-                                    <a href="https://www.youtube.com/channel/UC9HlQRmKgG3jeVD_fBxj1Pw/videos"><i class="fab fa-youtube"></i></a>
+                                       <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                                    <a href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="footer-link">
-                                    <h2>Quick Links</h2>
-                                    <a href="">Terms of use</a>
-                                    <a href="">Privacy policy</a>
+                                    <h2>Acesso rápido</h2>
+                                    <a href="">Termos de uso</a>
+                                    <a href="">Política de Privacidade</a>
                                     <a href="">Cookies</a>
-                                    <a href="">Help</a>
-                                    <a href="">FQAs</a>
+                                    <a href="">Ajuda</a>
+                                    <a href="">FAQ</a>
                                 </div>
                             </div>
                         </div>
@@ -218,11 +217,11 @@
                         <div class="footer-newsletter">
                             <h2>Newsletter</h2>
                             <p>
-                                Lorem ipsum dolor sit amet elit. Quisque eu lectus a leo dictum nec non quam. Tortor eu placerat rhoncus, lorem quam iaculis felis, sed lacus neque id eros.
+                                Assine nossa newsletter e fique por dentro de todas as novidades da WIGG
                             </p>
                             <div class="form">
-                                <input class="form-control" placeholder="Email goes here">
-                                <button class="btn">Submit</button>
+                                <input class="form-control" placeholder="Insira seu email">
+                                <button class="btn">Enviar</button>
                             </div>
                         </div>
                     </div>
@@ -231,10 +230,10 @@
             <div class="container copyright">
                 <div class="row">
                     <div class="col-md-6">
-                        <p>&copy; <a href="https://freewebsitecode.com">Your Site Name</a>, All Right Reserved.</p>
+                        <p>&copy; <a href="index.php">Wigg by Space.IO</a>, Todos os direitos reservados.</p>
                     </div>
                     <div class="col-md-6">
-                        <p>Designed By <a href="https://freewebsitecode.com">Free Website Code</a></p>
+                        
                     </div>
                 </div>
             </div>
