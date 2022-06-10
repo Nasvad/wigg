@@ -114,7 +114,7 @@
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="control-group">
-                                        <input type="text" class="form-control" id="corpname" placeholder="Nome da sua empresa" required="required" data-validation-required-message="Por favor, informe o nome da sua empresa" />
+                                        <input type="text" class="form-control" id="corpname" placeholder="Seu endereço" required="required" data-validation-required-message="Por favor, informe seu endereço" />
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="control-group">
