@@ -118,6 +118,7 @@
                                         <button class="btn" id="register_button">Login</button>
                                     </div>
                                 </form>
+                                <button class="btn" href="cadastro.php">Não tenho conta</button>
                             </div>
                         </div>
                     </div>
