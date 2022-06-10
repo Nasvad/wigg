@@ -63,8 +63,6 @@
                         <a href="saloes.php" class="nav-item nav-link">Salões</a>
                         <a href="barbeiros.php" class="nav-item nav-link">Barbeiros</a> 
                         <a href="saloesvist.php" class="nav-item nav-link">Salões mais vistos</a>
-                        <!--<a href="team.php" class="nav-item nav-link">Barbeiros mais vistos</a>-->
-                        <!--<a href="portfolio.php" class="nav-item nav-link">Gallery</a> -->
                         <a href="contact.php" class="nav-item nav-link">Entre em contato</a>
                         <a href="about.php" class="nav-item nav-link">Sobre a Wigg</a>
                     <!--<div class="nav-item dropdown">
@@ -88,7 +86,7 @@
                         <h2>Edite seu perfil</h2>
                     </div>
                     <div class="col-12">
-                        <a href="">Início</a>
+                        <a href="index.php">Início</a>
                         
                     </div>
                 </div>

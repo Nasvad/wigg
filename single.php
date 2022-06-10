@@ -63,8 +63,6 @@
                         <a href="saloes.php" class="nav-item nav-link">Salões</a>
                         <a href="barbeiros.php" class="nav-item nav-link">Barbeiros</a> 
                         <a href="saloesvist.php" class="nav-item nav-link">Salões mais vistos</a>
-                        <!--<a href="barbmaisvist.php" class="nav-item nav-link">Barbeiros mais vistos</a> -->
-                        <!--<a href="portfolio.php" class="nav-item nav-link">Gallery</a> -->
                         <a href="contact.php" class="nav-item nav-link">Entre em contato</a>
                         <a href="login.php" class="nav-item nav-link">Faça seu login</a>
                     <!--<div class="nav-item dropdown">
