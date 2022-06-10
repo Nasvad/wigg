@@ -93,8 +93,8 @@
 
         <!-- Contact Start -->
         <div class="section-header text-center" style="margin-top: 90px;">
-            <p>Seja um colaborador Wigg</p>
-            <h2>Preencha com seus dados e trabalhe com a gente!</h2>
+            <p>Não tem uma conta?</p>
+            <h2>Preencha com seus dados e seja um usuário Wigg!</h2>
         </div>
         <div class="contact" style="margin-bottom: 90px;">
             <div class="container-fluid">
