@@ -61,17 +61,15 @@
                     <div class="navbar-nav ml-auto">
                         
                         <a href="saloes.php" class="nav-item nav-link">Salões</a>
-                        <a href="barbeiros.php" class="nav-item nav-link">Barbeiros</a> 
                         <a href="saloesvist.php" class="nav-item nav-link">Salões mais vistos</a>
                         <a href="contact.php" class="nav-item nav-link">Entre em contato</a>
                         <a href="login.php" class="nav-item nav-link">Faça seu login</a>
-                        <a href="editperfil.php" class="nav-item nav-link">Editar Perfil</a>
-                      <!--<div class="nav-item dropdown">
+                        <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">Conta</a>
                             <div class="dropdown-menu">
                                 <a href="editperfil.php" class="dropdown-item">Editar perfil</a>
                                 <a href="#" class="dropdown-item">Sair</a>
-                            </div> -->
+                            </div> 
                         <a href="about.php" class="nav-item nav-link">Sobre a Wigg</a>
                                            
                     </div>

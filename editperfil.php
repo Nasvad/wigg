@@ -60,8 +60,7 @@
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto">
                         <a href="index.php" class="nav-item nav-link active">Início</a>
-                        <a href="saloes.php" class="nav-item nav-link">Salões</a>
-                        <a href="barbeiros.php" class="nav-item nav-link">Barbeiros</a> 
+                        <a href="saloes.php" class="nav-item nav-link">Salões</a> 
                         <a href="saloesvist.php" class="nav-item nav-link">Salões mais vistos</a>
                         <a href="contact.php" class="nav-item nav-link">Entre em contato</a>
                         <a href="about.php" class="nav-item nav-link">Sobre a Wigg</a>
