@@ -106,7 +106,7 @@
                                 <div id="success"></div>
                                 <form name="login_form_content" id="login_form" method="POST" action="db/db_login.php">
                                     <div class="control-group">
-                                        <input type="text" name="nome" class="form-control" id="name" placeholder="Nome ou email" required data-validation-required-message="Por favor, insira seu nome de usuário" />
+                                        <input type="text" name="nome" class="form-control" id="name" placeholder="Seu email" required data-validation-required-message="Por favor, insira seu email" />
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     
