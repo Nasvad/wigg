@@ -254,7 +254,7 @@ a:focus {
     width: 100%;
     margin-bottom: 45px;
     height: calc(100vh - 60px);
-    background: #D5B981;
+    background: #F6E6D3;
     overflow: hidden;
 }
 
@@ -479,7 +479,7 @@ a:focus {
     margin-bottom: 45px;
     padding: 150px 0 90px 0;
     text-align: center;
-    background: #D5B981;
+    background: #F6E6D3;
 }
 
 .page-header h2 {

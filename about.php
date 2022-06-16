@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Wigg - Trabalhe com a gente</title>
+        <title>Wigg - Sobre nós</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Free Website Template" name="keywords">
         <meta content="Free Website Template" name="description">
@@ -22,15 +22,11 @@
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
-        <script>
-            function alerta_email() {
-                alert("Email enviado!");
-            }
-        </script>
     </head>
 
     <body>
-        <div class="top-bar d-none d-md-block">
+            <!-- Top Bar Start -->
+            <div class="top-bar d-none d-md-block">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-6">
@@ -64,7 +60,17 @@
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto">
                         <a href="index.php" class="nav-item nav-link active">Início</a>
+                        <a href="saloes.php" class="nav-item nav-link">Salões</a>
+                        <a href="saloesvist.php" class="nav-item nav-link">Salões mais vistos</a>
+                        <a href="contact.php" class="nav-item nav-link">Entre em contato</a>
                         <a href="login.php" class="nav-item nav-link">Faça seu login</a>
+                    <!--<div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">Conta</a>
+                            <div class="dropdown-menu">
+                                <a href="editperfil.php" class="dropdown-item">Editar perfil</a>
+                                <a href="#" class="dropdown-item">Sair</a>
+                            </div> -->
+                        <a href="about.php" class="nav-item nav-link">Sobre a Wigg</a>
                                            
                     </div>
                 </div>
@@ -73,17 +79,15 @@
         <!-- Nav Bar End -->
 
 
-
         <!-- Page Header Start -->
         <div class="page-header">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h2>Entre em contato conosco</h2>
+                        <h2>Sobre a Wigg</h2>
                     </div>
                     <div class="col-12">
-                        <a href="index.php">Início</a>
-                        
+                        <a href="">Início</a>
                     </div>
                 </div>
             </div>
@@ -91,59 +95,90 @@
         <!-- Page Header End -->
 
 
-        <!-- Contact Start -->
-        <div class="section-header text-center" style="margin-top: 90px;">
-            <p>Seja um colaborador Wigg</p>
-            <h2>Preencha com seus dados e trabalhe com a gente!</h2>
+        <!-- About Start -->
+        <div class="about">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 col-md-6">
+                        <div class="about-img">
+                            <img src="img/altwigg.png" alt="Image">
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-6">
+                        <div class="section-header text-left">
+                            <p>Um produto Space.IO</p>
+                            <h2>A Wigg veio para facilitar sua vida!</h2>
+                        </div>
+                        <div class="about-text">
+                            <p>
+                            O Wigg veio para sanar uma necessidade nichada com capacidade para se expandir, buscando agilizar, diversificar, facilitar/proporcionar visibilidade mais facilmente entre o meio e seus interessados, facilitando para o cliente usuário final, que, consegue encontrar colaboradores com diferentes preços e especializações e facilitando para o colaborador, que, tem na plataforma, uma visibilidade de clientes voltadas para a área, abrindo margem para crescimento profissional e expansão de negócios no meio virtual e consequentemente físico. 
+                            </p>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="contact" style="margin-bottom: 90px;">
-            <div class="container-fluid">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-md-4"></div>
-                        <div class="col-md-8">
-                            <div class="contact-form">
-                                <div id="success"></div>
-                                <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                                    <div class="control-group">
-                                        <input type="text" class="form-control" id="name" placeholder="Seu nome completo" required="required" data-validation-required-message="Por favor, insira seu nome" />
-                                        <p class="help-block text-danger"></p>
-                                    </div>
-                                    <div class="control-group">
-                                        <input type="email" class="form-control" id="email" placeholder="Seu Email" required="required" data-validation-required-message="Por favor, insira seu email" />
-                                        <p class="help-block text-danger"></p>
-                                    </div>
-                                    <div class="control-group">
-                                        <input type="password" class="form-control" id="password" placeholder="Sua senha" required="required" data-validation-required-message="Por favor, uma senha" />
-                                        <p class="help-block text-danger"></p>
-                                    </div>
-                                    <div class="control-group">
-                                        <input type="text" class="form-control" id="phone" placeholder="Seu telefone" required="required" data-validation-required-message="Por favor, informe o seu telefone" />
-                                        <p class="help-block text-danger"></p>
-                                    </div>
-                                    <div class="control-group">
-                                        <input type="number" class="form-control" id="age" placeholder="Sua idade" required="required" data-validation-required-message="Por favor, informe sua idade" />
-                                        <p class="help-block text-danger"></p>
-                                    </div>
-                                    <div class="control-group">
-                                        <input type="text" class="form-control" id="adress" placeholder="Seu endereço" required="required" data-validation-required-message="Por favor, informe sua idade" />
-                                        <p class="help-block text-danger"></p>
-                                    </div>
-                                    <div class="control-group">
-                                        <input type="text" class="form-control" id="corpname" placeholder="Nome da empresa" required="required" data-validation-required-message="Por favor, informe o nome da empresa" />
-                                        <p class="help-block text-danger"></p>
-                                    </div>
-                                    <div>
-                                        <button class="btn" type="submit" id="sendMessageButton">Vamos começar!</button>
-                                    </div>
-                                </form>
+        <!-- About End -->
+
+
+        <!-- Team Start 
+        <div class="team">
+            <div class="container">
+                <div class="section-header text-center">
+                    <p>Our Barber Team</p>
+                    <h2>Meet Our Hair Cut Expert Barber</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/team-1.jpg" alt="Team Image">
+                            </div>
+                            <div class="team-text">
+                                <h2>Adam Phillips</h2>
+                                <p>Master Barber</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/team-2.jpg" alt="Team Image">
+                            </div>
+                            <div class="team-text">
+                                <h2>Dylan Adams</h2>
+                                <p>Hair Expert</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/team-3.jpg" alt="Team Image">
+                            </div>
+                            <div class="team-text">
+                                <h2>Gloria Edwards</h2>
+                                <p>Beard Expert</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/team-4.jpg" alt="Team Image">
+                            </div>
+                            <div class="team-text">
+                                <h2>Josh Dunn</h2>
+                                <p>Color Expert</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Contact End -->
+         -->
 
 
         <!-- Footer Start -->

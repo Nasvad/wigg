@@ -1,3 +1,8 @@
+<?php 
+    session_start();
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -55,7 +60,7 @@
                 <a href="index.php" class="navbar-brand">WIGG</a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
-                </button>
+                    </button>
 
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto">
@@ -99,21 +104,22 @@
                         <div class="col-md-8">
                             <div class="contact-form">
                                 <div id="success"></div>
-                                <form name="login_form_content" id="login_form" action="#">
+                                <form name="login_form_content" id="login_form" method="POST" action="db/db_login.php">
                                     <div class="control-group">
-                                        <input type="text" class="form-control" id="name" placeholder="Nome ou email" required data-validation-required-message="Por favor, insira seu nome de usuário" />
+                                        <input type="text" name="nome" class="form-control" id="name" placeholder="Seu email" required data-validation-required-message="Por favor, insira seu email" />
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     
                                     <div class="control-group">
-                                        <input type="text" class="form-control" id="password" placeholder="Sua senha" required data-validation-required-message="Por favor, insira sua senha" />
+                                        <input type="text" name="senha" class="form-control" id="password" placeholder="Sua senha" required data-validation-required-message="Por favor, insira sua senha" />
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div>
                                         <button class="btn" id="register_button">Login</button>
-                                        
                                     </div>
                                 </form>
+                                <br/>
+                                <a class="btn" href="cadastro.php">Não tenho conta</a>
                             </div>
                         </div>
                     </div>
@@ -199,7 +205,18 @@
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
 		
-		<!-- Register Script !-->
+		<!-- Register Script !--> 
 		<script src="js/register.js"></script>
+        
+        <?php 
+        if(isset($_SESSION["verificado"]) && $_SESSION["verificado"]) {
+            if(isset($_SESSION["connected"]) && $_SESSION["connected"]) {
+                echo '<script>alert("usúario connectado!")</script>';
+            }else {
+                echo '<script>alert("usúario inválido!")</script>';
+            }
+            $_SESSION["verificado"] = 0;
+        }
+        ?>
     </body>
 </html>

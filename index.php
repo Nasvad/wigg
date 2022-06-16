@@ -59,11 +59,20 @@
 
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto">
-                        <a href="index.php" class="nav-item nav-link active">Início</a>
+                        
+                        <a href="saloes.php" class="nav-item nav-link">Salões</a>
+        
                         <a href="saloesvist.php" class="nav-item nav-link">Salões mais vistos</a>
-                        <a href="portfolio.php" class="nav-item nav-link">Serviços</a>
                         <a href="contact.php" class="nav-item nav-link">Entre em contato</a>
                         <a href="login.php" class="nav-item nav-link">Faça seu login</a>
+                        <a href="editperfil.php" class="nav-item nav-link">Editar Perfil</a>
+                      <!--<div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">Conta</a>
+                            <div class="dropdown-menu">
+                                <a href="editperfil.php" class="dropdown-item">Editar perfil</a>
+                                <a href="#" class="dropdown-item">Sair</a>
+                            </div> -->
+                        <a href="about.php" class="nav-item nav-link">Sobre a Wigg</a>
                                            
                     </div>
                 </div>
@@ -125,7 +134,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-5 col-md-6">
                         <div class="about-img">
-                            <img src="img/about.jpg" alt="Image">
+                            <img src="img/altwigg.png" alt="Image">
                         </div>
                     </div>
                     <div class="col-lg-7 col-md-6">
@@ -135,10 +144,10 @@
                         </div>
                         <div class="about-text">
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
+                            O Wigg veio para sanar uma necessidade nichada com capacidade para se expandir, buscando agilizar, diversificar, facilitar/proporcionar visibilidade mais facilmente entre o meio e seus interessados, facilitando para o cliente usuário final, que, consegue encontrar colaboradores com diferentes preços e especializações e facilitando para o colaborador, que, tem na plataforma, uma visibilidade de clientes voltadas para a área, abrindo margem para crescimento profissional e expansão de negócios no meio virtual e consequentemente físico. 
                             </p>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. Aenean consectetur convallis porttitor. Aliquam interdum at lacus non blandit.
+                               
                             </p>
                             
                         </div>
