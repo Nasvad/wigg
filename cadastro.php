@@ -66,7 +66,7 @@
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto">
                         <a href="index.php" class="nav-item nav-link active">Início</a>
-                        <a href="login.php" class="nav-item nav-link">Faça seu loginaa</a>
+                        <a href="login.php" class="nav-item nav-link">Faça seu login</a>
                                            
                     </div>
                 </div>
