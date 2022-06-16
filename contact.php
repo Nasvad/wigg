@@ -114,11 +114,23 @@
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="control-group">
-                                        <input type="text" class="form-control" id="corpname" placeholder="Nome da sua empresa" required="required" data-validation-required-message="Por favor, informe o nome da sua empresa" />
+                                        <input type="password" class="form-control" id="password" placeholder="Sua senha" required="required" data-validation-required-message="Por favor, uma senha" />
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="control-group">
-                                        <input type="number" class="form-control" id="subject" placeholder="Seu telefone" required="required" data-validation-required-message="Por favor, informe o seu telefone" />
+                                        <input type="text" class="form-control" id="phone" placeholder="Seu telefone" required="required" data-validation-required-message="Por favor, informe o seu telefone" />
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div class="control-group">
+                                        <input type="number" class="form-control" id="age" placeholder="Sua idade" required="required" data-validation-required-message="Por favor, informe sua idade" />
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div class="control-group">
+                                        <input type="text" class="form-control" id="adress" placeholder="Seu endereço" required="required" data-validation-required-message="Por favor, informe sua idade" />
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div class="control-group">
+                                        <input type="text" class="form-control" id="corpname" placeholder="Nome da empresa" required="required" data-validation-required-message="Por favor, informe o nome da empresa" />
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div>
