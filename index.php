@@ -187,7 +187,7 @@
                             <p>
                                 Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non
                             </p>
-                            <a class="btn" href="">Saiba mais</a>
+                            <a class="btn" href="single.php">Saiba mais</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
