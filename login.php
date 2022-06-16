@@ -118,7 +118,8 @@
                                         <button class="btn" id="register_button">Login</button>
                                     </div>
                                 </form>
-                                <button class="btn" href="cadastro.php">Não tenho conta</button>
+                                <br/>
+                                <a class="btn" href="cadastro.php">Não tenho conta</a>
                             </div>
                         </div>
                     </div>

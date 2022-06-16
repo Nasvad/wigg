@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php session_start(); ?>
 <html lang="en">
     <head>
         <meta charset="utf-8">
@@ -19,6 +20,7 @@
         <link href="lib/animate/animate.min.css" rel="stylesheet">
         <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
         <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="css/custom.css" rel="stylesheet">
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
@@ -103,22 +105,30 @@
                         <div class="col-md-4"></div>
                         <div class="col-md-8">
                             <div class="contact-form">
-                                <div id="success"></div>
-                                <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                                <div id="success"><?php
+                                    if(isset($_SESSION["cadastro_sucesso"]) && $_SESSION["cadastro_sucesso"]) {
+                                        echo '<p id="cadastro_sucesso">Cadastrado com sucesso!</p>';
+                                    }elseif(isset($_SESSION["cadastro_sucesso"]) && !$_SESSION["cadastro_sucesso"]){
+                                        echo '<p id="cadastro_erro">Email já cadastrado</p>';
+                                    }
+
+                                    unset($_SESSION["cadastro_sucesso"]);
+                                ?></div>
+                                <form name="sentMessage" id="contactForm" method="POST" action="db/salvar_cliente.php">
                                     <div class="control-group">
-                                        <input type="text" class="form-control" id="name" placeholder="Seu nome completo" required="required" data-validation-required-message="Por favor, insira seu nome" />
+                                        <input type="text" name="nome" class="form-control" id="name" placeholder="Seu nome completo" required="required" data-validation-required-message="Por favor, insira seu nome" />
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="control-group">
-                                        <input type="email" class="form-control" id="email" placeholder="Seu Email" required="required" data-validation-required-message="Por favor, insira seu email" />
+                                        <input type="email" name="email" class="form-control" id="email" placeholder="Seu Email" required="required" data-validation-required-message="Por favor, insira seu email" />
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="control-group">
-                                        <input type="text" class="form-control" id="corpname" placeholder="Seu endereço" required="required" data-validation-required-message="Por favor, informe seu endereço" />
+                                        <input type="password" name="senha" class="form-control" id="corpname" placeholder="Sua senha" required="required" data-validation-required-message="Por favor, informe seu endereço" />
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="control-group">
-                                        <input type="number" class="form-control" id="subject" placeholder="Seu telefone" required="required" data-validation-required-message="Por favor, informe o seu telefone" />
+                                        <input type="number" name="idade" class="form-control" id="subject" placeholder="Sua idade" required="required" data-validation-required-message="Por favor, informe o seu telefone" />
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div>
@@ -205,7 +215,7 @@
 
         <!-- Contact Javascript File -->
         <script src="mail/jqBootstrapValidation.min.js"></script>
-        <script src="mail/contact.js"></script>
+        <!-- <script src="mail/contact.js"></script> -->
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
