@@ -99,13 +99,13 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-5 col-md-6">
-                        <div class="about-img">
-                            <img src="img/about.jpg" alt="Image">
+                    <div class="about-img">
+                            <img src="img/severio.png" alt="Image">
                         </div>
                     </div>
                     <div class="col-lg-7 col-md-6">
                         <div class="section-header text-left">
-                            <h2>Cida Inácia Espaço de Beleza</h2>
+                            <h2>Rafael Roseno</h2>
                         </div>
                         <div class="about-text">
                             <p>
@@ -114,7 +114,7 @@
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. Aenean consectetur convallis porttitor. Aliquam interdum at lacus non blandit.
                             </p>
-                            <a class="btn" href="">Salvar informações</a>
+                            <a class="btn" href="">Alterar informações</a>
                         </div>
                     </div>
                 </div>
