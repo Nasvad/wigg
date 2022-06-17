@@ -165,10 +165,9 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="footer-link">
-                                    <h2>Acesso rápido</h2>
+                                <h2>Acesso rápido</h2>
                                     <a href="">Termos de uso</a>
                                     <a href="">Política de Privacidade</a>
-                                    <a href="">Cookies</a>
                                     <a href="">Ajuda</a>
                                     <a href="">FAQ</a>
                                 </div>
