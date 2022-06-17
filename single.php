@@ -107,7 +107,7 @@
                     <div class="col-12">
                         <img src="img/single.jpg" alt="Image">
                         
-                        <h2>This is heading 2</h2>
+                        <h2>O melhor lugar quando se trata da sua estética!</h2>
 
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. Aenean consectetur convallis porttitor. Aliquam interdum at lacus non blandit. Nam congue molestie nibh in venenatis. Etiam non dui vel purus mollis consectetur. Sed at cursus lectus, sed iaculis lorem. Suspendisse venenatis est eu neque elementum, a accumsan tortor scelerisque. Nullam id erat arcu. Morbi suscipit commodo tortor non efficitur. Ut pretium sollicitudin lorem quis laoreet. Nulla vestibulum ante ut tellus hendrerit, ac condimentum sapien vehicula. Fusce dapibus, nulla non venenatis pretium, purus mauris vehicula elit, at posuere leo elit id augue. Donec ullamcorper tortor et tellus convallis maximus.
@@ -128,32 +128,6 @@
                         <p>
                             Aenean dolor nisi, ultrices vitae urna vitae, tristique auctor tortor. Cras eu aliquet metus. Nunc volutpat est nec convallis vulputate. Maecenas quis tortor molestie, maximus arcu mattis, vehicula orci. Curabitur consequat eu orci vel vulputate. In mollis purus in tellus consectetur, at tristique lacus gravida. Integer tempor mattis elit, eu mollis tellus pretium in. Duis id iaculis ipsum, eu tempus purus. Fusce euismod lacus quis felis eleifend egestas. Nam at dolor vitae risus varius mattis sed ut tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque diam nisl, interdum sit amet congue efficitur, ultrices id dolor. 
                         </p>
-                        <table class="table table-bordered">
-                            <thead>
-                                <tr>
-                                    <th>Table Head</th>
-                                    <th>Table Head</th>
-                                    <th>Table Head</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Table Cell</td>
-                                    <td>Table Cell</td>
-                                    <td>Table Cell</td>
-                                </tr>
-                                <tr>
-                                    <td>Table Cell</td>
-                                    <td>Table Cell</td>
-                                    <td>Table Cell</td>
-                                </tr>
-                                <tr>
-                                    <td>Table Cell</td>
-                                    <td>Table Cell</td>
-                                    <td>Table Cell</td>
-                                </tr>
-                            </tbody>
-                        </table>
                     </div>
                 </div>
             </div>
@@ -186,7 +160,6 @@
                                     <h2>Acesso rápido</h2>
                                     <a href="">Termos de uso</a>
                                     <a href="">Política de Privacidade</a>
-                                    <a href="">Cookies</a>
                                     <a href="">Ajuda</a>
                                     <a href="">FAQ</a>
                                 </div>

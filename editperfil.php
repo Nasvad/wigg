@@ -114,7 +114,7 @@
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. Aenean consectetur convallis porttitor. Aliquam interdum at lacus non blandit.
                             </p>
-                            <a class="btn" href="">ticoliro</a>
+                            <a class="btn" href="">Salvar informações</a>
                         </div>
                     </div>
                 </div>
@@ -203,10 +203,9 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="footer-link">
-                                    <h2>Acesso rápido</h2>
+                                <h2>Acesso rápido</h2>
                                     <a href="">Termos de uso</a>
                                     <a href="">Política de Privacidade</a>
-                                    <a href="">Cookies</a>
                                     <a href="">Ajuda</a>
                                     <a href="">FAQ</a>
                                 </div>

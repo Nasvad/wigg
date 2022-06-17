@@ -187,7 +187,7 @@
                             <p>
                                 Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non
                             </p>
-                            <a class="btn" href="">Saiba mais</a>
+                            <a class="btn" href="single.php">Saiba mais</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
@@ -220,7 +220,7 @@
                         <p>
                            O Wigg é uma ferramenta muito útil para mim que cheguei aqui em Juazeiro sem conhecer absolutamente nada e precisava de um trato no visual! 
                         </p>
-                        <h2>Cleitinho do Arrocha</h2>
+                        <h2>Felipe Souza</h2>
                         
                     </div>
                     <div class="testimonial-item">
@@ -228,7 +228,7 @@
                         <p>
                            Essa plataforma é muito boa, nem sabia que existiam tantos salões pela região kkkk.
                         </p>
-                        <h2>Lerinho Alencar</h2>
+                        <h2>Rafael Roseno</h2>
                         
                     </div>
                     <div class="testimonial-item">
@@ -236,7 +236,7 @@
                         <p>
                             Não sabia que precisava do Wigg até usar ele, muito bom pra sempre me manter antenado sobre os melhores salões.
                         </p>
-                        <h2>Aluno de direito aleatório</h2>
+                        <h2>Leonam Pereira</h2>
                         
                     </div>
                 </div>
@@ -259,8 +259,8 @@
                                 <img src="img/team-1.jpg" alt="Team Image">
                             </div>
                             <div class="team-text">
-                                <h2>Adalberto Pereira</h2>
-                                <p>Salão Stillus, Parnamirim-PE</p>
+                                <h2>Ernestes Pereira</h2>
+                                <p>Salão Stillus, Juazeiro do Norte - CE</p>
                             </div>
                         </div>
                     </div>
@@ -270,8 +270,8 @@
                                 <img src="img/team-2.jpg" alt="Team Image">
                             </div>
                             <div class="team-text">
-                                <h2>Dyalison Luna</h2>
-                                <p>Zérioca Salão e Barbearia, Assaré-CE</p>
+                                <h2>Diana Luna</h2>
+                                <p>Zérioca Salão e Barbearia, Juazeiro do Norte - CE</p>
                             </div>
                         </div>
                     </div>
@@ -281,8 +281,8 @@
                                 <img src="img/team-3.jpg" alt="Team Image">
                             </div>
                             <div class="team-text">
-                                <h2>Renatão da massa</h2>
-                                <p>Barbearia Luxury Warm, Crato-CE</p>
+                                <h2>Marcos Orivaldo</h2>
+                                <p>Salão Luxury Warm, Juazeiro do Norte - CE</p>
                             </div>
                         </div>
                     </div>
@@ -292,8 +292,8 @@
                                 <img src="img/team-4.jpg" alt="Team Image">
                             </div>
                             <div class="team-text">
-                                <h2>João Gomes</h2>
-                                <p>Barbearia Cabra Macho - Juazeiro do Norte-CE</p>
+                                <h2>Rebeca</h2>
+                                <p>Rebeca Saloon's, Juazeiro do Norte - CE</p>
                             </div>
                         </div>
                     </div>
@@ -364,10 +364,9 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="footer-link">
-                                    <h2>Acesso rápido</h2>
+                                <h2>Acesso rápido</h2>
                                     <a href="">Termos de uso</a>
                                     <a href="">Política de Privacidade</a>
-                                    <a href="">Cookies</a>
                                     <a href="">Ajuda</a>
                                     <a href="">FAQ</a>
                                 </div>
