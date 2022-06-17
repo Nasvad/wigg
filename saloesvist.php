@@ -1,5 +1,6 @@
 <?php 
     include("db/bd.php");
+    session_start();
 ?>
 
 <!DOCTYPE html>
@@ -109,32 +110,28 @@
                     <h2>Salões com as melhores avaliações!</h2>
                 </div>
                 <div class="row blog-page">
-                
-                <!-- TODO(finalizar a renderização dinâmica) < Renderização dinâmica de barbearia 
-                    $conn = $mysqli_connect("");
-                    $sql = "select * from _database_";
-                    $result = $mysqli_querry($sqli);
-                    $arr = mysqli_fetch_all($result, MYSQLI_BOTH);
-                    foreach($arr as $a) {
+                <?php   
+                    $sql = sprintf("SELECT img FROM %s", $tabela_colaborador);
+                    $result = $conn->query($sql);
+
+                    while($row = $result->fetch(PDO::FETCH_ASSOC)) {
                         echo "<div class='col-lg-4 col-md-6'>";
-                            echo "<div class='blog-item'>";
-                                echo "<div class='blog-img'>";
-                                    echo sprintf("<img src='%s' alt="Blog">", $a["imagem-background"]);
-                                echo "</div>";
+                        echo "<div class='blog-item'>";
+                            echo "<div class='blog-img'>";
+                                echo sprintf("<img src='%s' alt='Blog'>", $row["img"]);
                             echo "</div>";
-                            echo "<div class='blog-meta'>";
-                                echo "<i class='fa fa-list-alt'></i>";
-                                echo "<a href=''>Hair Cut</a>";
-                                echo "<i class='fa fa-calendar-alt'></i>";
-                            echo "</div>";
-                            echo "<div class='blog-text'>";
-                                echo "<a class='btn' href=''>Read More <i class='fa fa-angle-right'></i></a>";
+                        echo "</div>";
+                        echo "<div class='blog-meta'>";
+                            echo "<i class='fa fa-list-alt'></i>";
+                            echo "<a href=''>Hair Cut</a>";
+                            echo "<i class='fa fa-calendar-alt'></i>";
+                        echo "</div>";
+                        echo "<div class='blog-text'>";
+                            echo "<a class='btn' href=''>Read More <i class='fa fa-angle-right'></i></a>";
                             echo "</div>";
                         echo "</div>";
                     }
-
-                    mysqli_close($conn);
-                ?> -->
+                ?> 
                     <!-- <div class="col-lg-4 col-md-6">
                         <div class="blog-item">
                             <div class="blog-img">

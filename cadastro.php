@@ -67,8 +67,6 @@
                     <div class="navbar-nav ml-auto">
                         <a href="index.php" class="nav-item nav-link active">Início</a>
                         <a href="login.php" class="nav-item nav-link">Faça seu login</a>
-                        <a href="contact.php" class="nav-item nav-link">Trabalhe conosco</a>
-                                           
                     </div>
                 </div>
             </div>
@@ -109,7 +107,7 @@
                                 <div id="success"><?php
                                     if(isset($_SESSION["cadastro_sucesso"]) && $_SESSION["cadastro_sucesso"]) {
                                         echo '<p id="cadastro_sucesso">Cadastrado com sucesso!</p>';
-                                    }elseif(isset($_SESSION["cadastro_sucesso"]) && !$_SESSION["cadastro_sucesso"]){
+                                    }else if(isset($_SESSION["cadastro_sucesso"]) && !$_SESSION["cadastro_sucesso"]){
                                         echo '<p id="cadastro_erro">Email já cadastrado</p>';
                                     }
 
@@ -132,7 +130,6 @@
                                         <input type="number" name="idade" class="form-control" id="subject" placeholder="Sua idade" required="required" data-validation-required-message="Por favor, informe o seu telefone" />
                                         <p class="help-block text-danger"></p>
                                     </div>
-                                    
                                     <div>
                                         <button class="btn" type="submit" id="sendMessageButton">Vamos começar!</button>
                                     </div>

@@ -3,7 +3,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Wigg - Trabalhe com a gente</title>
+        <title>Wigg - Trabalhe com a gente.</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Free Website Template" name="keywords">
         <meta content="Free Website Template" name="description">
@@ -58,15 +58,16 @@
         <!-- Nav Bar Start -->
         <div class="navbar navbar-expand-lg bg-dark navbar-dark">
             <div class="container-fluid">
-                <a href="index.php" class="navbar-brand">WIGG</a>
+                <a href="index.html" class="navbar-brand">WIGG</a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto">
-                        <a href="index.php" class="nav-item nav-link active">Início</a>
-                        <a href="login.php" class="nav-item nav-link">Faça seu login</a>
+                        <a href="index.html" class="nav-item nav-link active">Início</a>
+                        <a href="#" class="nav-item nav-link">Serviços</a>
+                        <a href="login.html" class="nav-item nav-link">Faça seu login</a>
                                            
                     </div>
                 </div>
@@ -84,7 +85,7 @@
                         <h2>Entre em contato conosco</h2>
                     </div>
                     <div class="col-12">
-                        <a href="index.php">Início</a>
+                        <a href="index.html">Início</a>
                         
                     </div>
                 </div>
@@ -106,46 +107,23 @@
                         <div class="col-md-8">
                             <div class="contact-form">
                                 <div id="success"><?php 
-                                    if(isset($_SESSION["cadastro_colaborador_sucesso"]) && $_SESSION["cadastro_colaborador_sucesso"]) {
-                                        echo '<p id="cadastro_sucesso">Cadastrado com sucesso!</p>';
-                                    }else if(isset($_SESSION["cadastro_colaborador_sucesso"]) && !$_SESSION["cadastro_colaborador_sucesso"]) {
-                                        echo '<p id="cadastro_erro">Email já cadastrado</p>';
+                                    if(isset($_SESSION["email_enviado"]) && $_SESSION["email_enviado"]) {
+                                        echo '<p id="cadastro_sucesso">Email enviado com sucesso!</p>';
                                     }
 
-                                    unset($_SESSION["cadastro_colaborador_sucesso"]);
+                                    unset($_SESSION["email_enviado"])
                                 ?></div>
-                                <form name="sentMessage" id="contactForm" method="POST" action="db/salvar_colaborador.php" enctype="multipart/form-data">
+                                <form name="sentMessage" id="contactForm" method="POST" action="mail/contact.php">
                                     <div class="control-group">
-                                        <input type="text" name="nome" class="form-control" id="name" placeholder="Seu nome completo" required="required" data-validation-required-message="Por favor, insira seu nome" />
+                                        <input type="text" name="nome" class="form-control" id="name" placeholder="Seu nome completo" required="required" />
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="control-group">
-                                        <input type="email" name="email" class="form-control" id="email" placeholder="Seu Email" required="required" data-validation-required-message="Por favor, insira seu email" />
+                                        <input type="email" name="email" class="form-control" id="email" placeholder="Seu Email" required="required"/>
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="control-group">
-                                        <input type="password" name="senha" class="form-control" id="password" placeholder="Sua senha" required="required" data-validation-required-message="Por favor, uma senha" />
-                                        <p class="help-block text-danger"></p>
-                                    </div>
-                                    <div class="control-group">
-                                        <input type="text" name="endereco" class="form-control" id="adress" placeholder="Seu endereço" required="required" data-validation-required-message="Por favor, informe o seu telefone" />
-                                        <p class="help-block text-danger"></p>
-                                    </div>
-                                    <div class="control-group">
-                                        <input type="number" name="whatsapp" class="form-control" id="whatsapp" placeholder="Seu whatsapp (opcional)" />
-                                        <p class="help-block text-danger"></p>
-                                    </div>
-                                    <div class="control-group">
-                                        <input type="number" name="telefone" class="form-control" id="phone" placeholder="Seu telefone" required="required" data-validation-required-message="Por favor, informe sua idade" />
-                                        <p class="help-block text-danger"></p>
-                                    </div>
-                                    <div class="control-group">
-                                        <input type="number" name="idade" class="form-control" id="adress" placeholder="Sua idade" required="required" data-validation-required-message="Por favor, informe sua idade" />
-                                        <p class="help-block text-danger"></p>
-                                    </div>
-                                    <div class="control-group">
-                                        Imagem da empresa
-                                        <input type="file" name="img" class="form-control" id="imagem" placeholder="Imagem da empresa" required="required" data-validation-required-message="Por favor, a imagem da empresa" />
+                                        <textarea type="text" name="duvida" class="form-control" id="corpname" placeholder="Sua dúvida" required="required"></textarea>
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div>
@@ -210,7 +188,7 @@
             <div class="container copyright">
                 <div class="row">
                     <div class="col-md-6">
-                        <p>&copy; <a href="index.php">Wigg by Space.IO</a>, Todos os direitos reservados.</p>
+                        <p>&copy; <a href="index.html">Wigg by Space.IO</a>, Todos os direitos reservados.</p>
                     </div>
                     <div class="col-md-6">
                         
@@ -232,7 +210,7 @@
 
         <!-- Contact Javascript File -->
         <script src="mail/jqBootstrapValidation.min.js"></script>
-        <!--<script src="mail/contact.js"></script> -->
+        <!-- <script src="mail/contact.js"></script> -->
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
