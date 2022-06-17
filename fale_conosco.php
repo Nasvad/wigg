@@ -66,7 +66,6 @@
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto">
                         <a href="index.html" class="nav-item nav-link active">Início</a>
-                        <a href="#" class="nav-item nav-link">Serviços</a>
                         <a href="login.html" class="nav-item nav-link">Faça seu login</a>
                                            
                     </div>
