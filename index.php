@@ -259,8 +259,8 @@
                                 <img src="img/team-1.jpg" alt="Team Image">
                             </div>
                             <div class="team-text">
-                                <h2>Adalberto Pereira</h2>
-                                <p>Salão Stillus, Parnamirim-PE</p>
+                                <h2>Ernestes Pereira</h2>
+                                <p>Salão Stillus, Juazeiro do Norte - CE</p>
                             </div>
                         </div>
                     </div>
@@ -270,8 +270,8 @@
                                 <img src="img/team-2.jpg" alt="Team Image">
                             </div>
                             <div class="team-text">
-                                <h2>Dyalison Luna</h2>
-                                <p>Zérioca Salão e Barbearia, Assaré-CE</p>
+                                <h2>Diana Luna</h2>
+                                <p>Zérioca Salão e Barbearia, Juazeiro do Norte - CE</p>
                             </div>
                         </div>
                     </div>
@@ -281,8 +281,8 @@
                                 <img src="img/team-3.jpg" alt="Team Image">
                             </div>
                             <div class="team-text">
-                                <h2>Renatão da massa</h2>
-                                <p>Barbearia Luxury Warm, Crato-CE</p>
+                                <h2>Marcos Orivaldo</h2>
+                                <p>Salão Luxury Warm, Juazeiro do Norte - CE</p>
                             </div>
                         </div>
                     </div>
@@ -292,8 +292,8 @@
                                 <img src="img/team-4.jpg" alt="Team Image">
                             </div>
                             <div class="team-text">
-                                <h2>João Gomes</h2>
-                                <p>Barbearia Cabra Macho - Juazeiro do Norte-CE</p>
+                                <h2>Rebeca</h2>
+                                <p>Rebeca Saloon's, Juazeiro do Norte - CE</p>
                             </div>
                         </div>
                     </div>
