@@ -220,7 +220,7 @@
                         <p>
                            O Wigg é uma ferramenta muito útil para mim que cheguei aqui em Juazeiro sem conhecer absolutamente nada e precisava de um trato no visual! 
                         </p>
-                        <h2>Cleitinho do Arrocha</h2>
+                        <h2>Felipe Souza</h2>
                         
                     </div>
                     <div class="testimonial-item">
@@ -228,7 +228,7 @@
                         <p>
                            Essa plataforma é muito boa, nem sabia que existiam tantos salões pela região kkkk.
                         </p>
-                        <h2>Lerinho Alencar</h2>
+                        <h2>Rafael Roseno</h2>
                         
                     </div>
                     <div class="testimonial-item">
@@ -236,7 +236,7 @@
                         <p>
                             Não sabia que precisava do Wigg até usar ele, muito bom pra sempre me manter antenado sobre os melhores salões.
                         </p>
-                        <h2>Aluno de direito aleatório</h2>
+                        <h2>Leonam Pereira</h2>
                         
                     </div>
                 </div>
@@ -364,10 +364,9 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="footer-link">
-                                    <h2>Acesso rápido</h2>
+                                <h2>Acesso rápido</h2>
                                     <a href="">Termos de uso</a>
                                     <a href="">Política de Privacidade</a>
-                                    <a href="">Cookies</a>
                                     <a href="">Ajuda</a>
                                     <a href="">FAQ</a>
                                 </div>
